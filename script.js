@@ -7,7 +7,7 @@ function Calculate()
         let  SI=(p*t*r)/100;
         if (p==0) 
             alert("enter a positive number!")
-        else if (p>0)
+        else if (p<0)
             alert("enter a positive number")
         document.getElementById('si').innerHTML="If you deposit "+p+"<br>at an interest rate of "+r+"<br>You will receive an amount of " +SI;
     }
